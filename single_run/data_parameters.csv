@@ -1,0 +1,2 @@
+experiment,generations,mu,lambda,p_mate,p_mutate,enemy,pop_start,neurons
+test1,50,10,50,0.55,0.6666666666666666,2,50,10

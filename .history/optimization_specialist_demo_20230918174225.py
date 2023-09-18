@@ -19,7 +19,7 @@ import glob, os
 
 
 # choose this for not using visuals and thus making experiments faster
-headless = False
+headless = True
 if headless:
     os.environ["SDL_VIDEODRIVER"] = "dummy"
 
@@ -54,7 +54,7 @@ ini = time.time()  # sets time marker
 
 # genetic algorithm params
 
-run_mode = 'test' # train or test
+run_mode = 'train' # train or test
 
 # number of weights for multilayer with 10 hidden neurons
 n_vars = (env.get_num_sensors()+1)*n_hidden_neurons + (n_hidden_neurons+1)*5
